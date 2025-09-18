@@ -59,8 +59,8 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
-      <header className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 shadow-2xl">
+    <div className="min-h-screen flex flex-col bg-indigo-50">
+      <header className="bg-indigo-600 shadow-2xl">
         <div className='max-w-6xl mx-auto px-6 py-6'>
           <div className="flex items-center justify-center space-x-3">
             <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
@@ -96,7 +96,7 @@ function App() {
               </div>
 
               <button
-                className='p-3 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95'
+                className='p-3 rounded-full bg-indigo-500 hover:bg-indigo-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95'
                 onClick={swapTranslate}
               >
                 <svg
@@ -209,7 +209,7 @@ function App() {
         </div>
       </main>
 
-      <footer className='bg-gradient-to-r from-slate-800 via-gray-800 to-slate-800 text-white/80 mt-16'>
+      <footer className='bg-slate-800 text-white/80 mt-16'>
         <div className='max-w-6xl mx-auto px-6 py-8'>
           <div className="text-center">
             <p className="text-sm">
