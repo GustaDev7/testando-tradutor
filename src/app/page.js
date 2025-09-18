@@ -79,7 +79,7 @@ function App() {
         <div className='w-full max-w-6xl'>
           <div className='bg-white/80 backdrop-blur-lg rounded-2xl shadow-2xl overflow-hidden border border-white/20 transition-all duration-300 hover:shadow-3xl'>
 
-            <div className='flex items-center justify-between p-6 bg-gradient-to-r from-gray-50/50 to-blue-50/50 border-b border-gray-200/50'>
+            <div className='flex items-center justify-between p-6 bg-blue-50/50 border-b border-gray-200/50'>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
                 <select
@@ -150,7 +150,7 @@ function App() {
                 )}
               </div>
 
-              <div className='p-8 relative bg-gradient-to-br from-blue-50/30 to-purple-50/30 border-l border-gray-200/50'>
+              <div className='p-8 relative bg-purple-50/30 border-l border-gray-200/50'>
                 <div className="mb-3">
                   <label className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
                     Tradução
